@@ -1,0 +1,19 @@
+Given the jupyter notebook and a web article on how to build a classification model to predict with accuracy if a person is at high risk of suffering from heart attack following CRISP-DM methodology. I want you write a research paper about the same using latex.
+Outline of the paper:
+Abstract
+Introduction
+-	In this section you will write some basic stuff about CRISP-DM methodology and classification.
+Methodologies
+-	In this section you will explain the entire CRISP-DM process and all its sub tasks
+Implementation:
+-	In this section you will explain all the steps taken by us for building the model and how they relate with the CRISP DM process
+-	Write about PyCaret an automl library used, which tries a wide range of models out of which Naïve Bayes performed the best providing accuracy of 82%, precison of 81.8% and recall of 85.8%
+-	Explain why precision and recall are better evaluation matrix compared to accuracy for this use case
+-	Mentioned that we tried to tune the naïve bayes model using pycaret but found that the original model performed much better than any of out tuned model
+-	We tested the original model on test test and found the performance as accuracy 81.32%, precision 81.13% and recall 86%
+-	So we finalized this model
+Conclusion
+-	In this section draw a conclusion regarding what has been done
+Reference
+-	Add all the references
+And after each section ask me if I would like to change anything
